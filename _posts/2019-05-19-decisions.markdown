@@ -35,4 +35,5 @@ just the decision itself. But a commitment to formulated goals has been said to 
 The analysis of decisions in the context of blockchain systems is complicated, in particular the relationship between
 incentive and choice. Algorithms can now define monetary payoffs, which is a powerful tool. Money is a tool to communicate
 what is considered valuable and therefore codifies decisions in a fundamental way. Property clubs have different ways 
-and processes for decision making. "The proof-of-work also solves the problem of determining representation in majority decision making. [...] The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it."
+and processes for decision making. The [Bitcoin whitepaper](https://nakamotoinstitute.org/bitcoin/) contains some passages about the decision making process: "The proof-of-work also solves the problem of determining representation in majority decision making. [...] The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it.  [...] They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism."
+ 
