@@ -33,4 +33,6 @@ actual action. It should be clear from introspection that achieving goals also r
 just the decision itself. But a commitment to formulated goals has been said to be important to any organisation.
 
 The analysis of decisions in the context of blockchain systems is complicated, in particular the relationship between
-incentive and choice. Algorithms can now define monetary payoffs, which is a powerful tool. 
+incentive and choice. Algorithms can now define monetary payoffs, which is a powerful tool. Money is a tool to communicate
+what is considered valuable and therefore codifies decisions in a fundamental way. Property clubs have different ways 
+and processes for decision making. "The proof-of-work also solves the problem of determining representation in majority decision making. [...] The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it."
