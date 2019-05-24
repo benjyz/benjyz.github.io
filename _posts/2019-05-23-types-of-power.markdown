@@ -4,7 +4,7 @@ title:  "Types of power"
 date:   2019-05-23 12:24:28 +0700
 categories: economics
 ---
-In Bitcoin a cryptographic keypair encodes real value and therefore economic power. It is the first time that information itself by mere proof of its  possession can signal possession and transfer of economic resources directly in software. In all systems before control of any resource is subject to some hierarchy or third party. E.g. a bank credit depends on the institution of the bank and its employees. The accounting ledgers are centrally controlled.
+In Bitcoin a cryptographic keypair encodes real value and therefore economic power. It is the first time that information itself by mere proof can signal possession and transfer of economic resources directly in software. In all systems before, control of any resource is subject to some third party or institutional hierarchy. E.g. a bank credit depends on the institution of the bank and its employees. The accounting ledgers are centrally controlled. Similarly voting and ownership records are controlled by a government.
 
 There are fundamentally two types of power: decision making power (DP) and economic power (EP). In a democratic system
 DP is acquired by elections or other political processes. EP is acquired by work or capital accumulation. These are situated in fundamentally separate spheres and an overlap is considered problematic. In blockchain systems consensus and incentives are directly linked.
@@ -24,6 +24,4 @@ In Proof-of-Stake systems coins encode EP and DP, they are one and the same thin
 
 To what extent it is possible to keep DP and EP separate is an open question. It has been argued that in partcular in Delegated PoS, votes can be bought. In Proof-of-Work this relationship is not as clear. However, it is certainly the case that by itself that in PoS those who hold coins get the DP for free, where as in PoW some economic expense is still required.
 
-If want to achieve more separation of powers we have to be clearly aware of the different types. It is unclear in how far
-any separation of powers can be applied. One other decision making power is the authoring of code which is more implicit than explicit,
-except for repository access rights.
+If want to achieve more [separation of powers](https://en.wikipedia.org/wiki/Separation_of_powers) we have to be clearly aware of the different types. It is unclear in how far any separation of powers can be applied. One other decision making power is the authoring of code which is more implicit than explicit, except for repository access rights.
