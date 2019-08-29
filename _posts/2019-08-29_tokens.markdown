@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Tokens and fiat money"
+date:   2019-08-29 10:00:00 +0700
+categories: blockchain
+---
+Currently the most discussed topic in blockchains is probably scaleability. In the Bitcoin ecosystem the most favoured solution is the Lightning network (LN) [1]. One basic idea in LN is that the blockchain can be used for settlement only and that transactions at higher scale can take place in a Level-2 network, i.e. a network of payment channels. If there are N participants in a network there are N! potential connections. However, since not everyone will transact with everyone else on an ongoing basis, only a small subset of connections are needed. I use the word connection very loosely here, but it could be thought of as a stable Internet connection. How the proposed payment channels are supposed to work without central intermediaries is a big question mark. Secure Sockets Layer and Public-key infrastructure solve the problem currently for eCommerce. To know the identity of a counterparty requires trust in the identity signed by e.g. Apple and Google.
+
+In the proposed network people would maintain channels with their counterparties i.e. peers and then broadcast on-chain a pre-signed transaction in case of a dispute. How would the money circulate in such a system? People would still use Bitcoin, but they would lockup money in the channels. There are no other form of money in this envisioned financial system (which at this point still is arguably more of a theory, rather than a working production system). The role of intermediaries is not clearly defined — centralised hubs could maintain many connections, so that individuals can route through them. What the precise nature of these hubs is, is unclear. In some talks by the authors Coinbase is mentioned as such a hub [2] (which are not precisely defined in terms of the protocol).
+
+The history of finance and money of modern times is related to the institution of banks. Rather than individuals transferring coins, “ the goldsmith-bankers of London began to give out the receipts as payable to the bearer of the document rather than the original depositor. This meant that the note could be used as currency based on the security of the goldsmith, not the account holder of the goldsmith-banker.” [3] Money then became a claim related to the trustworthiness of a third party. To some degree this is already the case with coinage, as the stamp on a coin guarantees its scarcity. To simplify things I will consider the case that only two types of moneys exist: gold proper and bearer certificates on gold by a fixed number of issues who always hold 100% reserves. Why is it useful to have bearer tokens rather than gold alone? Because the cost of a transfer are much lower. For example even today the transfer of gold is so expensive that central banks rarely transact in physical gold (for an exception see [4]).
+
+Similarly the idea in a layer-2 network would be that there are two types of money: a receipt-like money (claims on a centralised hub) and a gold-like money (rarely to be transacted with, but highly secure). The earliest designs of Bitcoin itself, Bitgold [5], had such properties.
+
+There is an alternative proposal for blockchain scaleability for such a two-tier system: ColoredCoins (now called tokens in the Ethereum context). The idea of ColoredCoins is that some new money can be created by some trustworthy individual or institution — the gold receipts would be issued. And this money would be issued on the blockchain. Contrary to bank-notes, the process of issuance would be auditable. Supposedly the balance sheet of the issuer would be more public than a bank ever will be as well. Hubs then would in a sense provide liquidity to the system.
+
+This idea is highly unpopular in Bitcoin for complex reasons. In fact all the early projects related to Bitcoin ColoredCoins have either failed or migrated to Ethereum. Ethereum itself was very much an extension of Bitcoin with ColoredCoins. The first version of Ethereum was actually called Ultimate Scripting and based on Bitcoin [6],[7]. The issuance of tokens in Ethereum has become a mainstream phenomenon.
+
+It is technically impossible to securely keep track of the state of balances with Bitcoin script. Any encoding scheme in script will not be checked by miners, so with enough money at stake they could forge transactions. Ethereum introduced the capability to create smart contracts which can keep track of balances i.e. state independently from the native currency of the blockchain. In Ethereum there exists several types of money: Ether and tokens (as well as other contract standards such as Non-fungible tokens).
+
+If we assume a trusted third party and issuance of coins to increase scaleability, we would want to define precise conditions of issuance. The main benefit of Bitcoin is to avoid trusted third parties in the first place, so why would we want to reintroduce them? The answer might lie in the question about decentralisation and trust in the first place. We can observe currently that most of the activity in Cryptocurrency takes place inside central exchanges.
+
+Coming back to the Lightning network, what I would critique is the assumption of hubs, and that exchanges would become such hubs in this system. It is never explicitly stated in the original paper how hubs would help to scale and why that would be a good solution. Why would the big Crypto companies choose to become hubs?
+
+The other big issue is cross-chain transactions. Currently exchanges perform the function of enabling users to move between Bitcoin and Ether currency. Since central exchanges already are widely used to transact between blockchains, a scaleable architecture needs to suggest a way to trade between currencies at a price.
+
+My third concern about LN is that the incentives seem to be missing: people are expected to lock-in money which by definition is less valuable than unlocked money. In the existing fiat and credit system money has a time value. I much doubt people would want to give up liquidity of currency for no direct, apparent benefit. Bitcoin is more valuable than Bitcoin locked up in a time-locked contract. They might save in transaction fees, but that is offset by the costs of finding nodes to route payments through. Routing in Bitcoin is not necessary — Peers can transact directly with each other.
+
+All these problems are inter-related: cross-chain trading, scaleability, exchanges and centralisation/decentralisation. However, in terms of Bitcoin most people interested in the ColoredCoin approach have long left the ecosytem and mostly favour Ethereum, because it enables issuance of tokens in Smart contracts. Architectures such as Lykke [8] make a lot more sense when using Smart contracts, than the severely limited Bitcoin scripts. 0x for example defines a decentral exchange protocol [9] which potentially allows for an ecosystem of trustless transfer.
+
+[1] https://lightning.network/
+[2] https://m.youtube.com/watch?v=8zVzw912wPo
+[3] https://en.wikipedia.org/wiki/Banknote
+[4] https://www.cnbc.com/2017/08/23/germanys-central-bank-just-shifted-50000-gold-bars-held-overseas-due-to-cold-war-fears.html
+[5] http://unenumerated.blogspot.com/2005/12/bit-gold.html
+[6] https://docs.google.com/document/d/1AnkP_cVZTCMLIzw4DvsW6M8Q2JC0lIzrTLuoWu2z1BE/edit
+[7] https://vitalik.ca/general/2017/09/14/prehistory.html
+[8] https://www.lykke.com/colored_coins_exchange_white_paper
+[9] https://github.com/0xProject/whitepaper/blob/master/0x_white_paper.pdf
