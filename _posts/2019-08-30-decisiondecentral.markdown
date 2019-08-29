@@ -13,5 +13,5 @@ My previous work in the area of blockchain since 2014 has mostly been in the are
 
 For now an interesting consequence of these considerations is to more clearly see what the issues with Proof-of-Stake are, and open an avenue for entirely new systems, such that coins and decision making power are more separated. In the authors view merely voting by coins in the style of DPOS does not address these concerns, as the delegates are not uniquely identifiable and there is no reason to vote for one delegate over another.
 
-[1] http://unenumerated.blogspot.com/2007/05/juritopia.html
-[2] https://bitcointalk.org/index.php?topic=27787.0
+* [1] http://unenumerated.blogspot.com/2007/05/juritopia.html
+* [2] https://bitcointalk.org/index.php?topic=27787.0

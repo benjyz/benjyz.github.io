@@ -28,12 +28,12 @@ My third concern about LN is that the incentives seem to be missing: people are 
 
 All these problems are inter-related: cross-chain trading, scaleability, exchanges and centralisation/decentralisation. However, in terms of Bitcoin most people interested in the ColoredCoin approach have long left the ecosytem and mostly favour Ethereum, because it enables issuance of tokens in Smart contracts. Architectures such as Lykke [8] make a lot more sense when using Smart contracts, than the severely limited Bitcoin scripts. 0x for example defines a decentral exchange protocol [9] which potentially allows for an ecosystem of trustless transfer.
 
-[1] https://lightning.network/
-[2] https://m.youtube.com/watch?v=8zVzw912wPo
-[3] https://en.wikipedia.org/wiki/Banknote
-[4] https://www.cnbc.com/2017/08/23/germanys-central-bank-just-shifted-50000-gold-bars-held-overseas-due-to-cold-war-fears.html
-[5] http://unenumerated.blogspot.com/2005/12/bit-gold.html
-[6] https://docs.google.com/document/d/1AnkP_cVZTCMLIzw4DvsW6M8Q2JC0lIzrTLuoWu2z1BE/edit
-[7] https://vitalik.ca/general/2017/09/14/prehistory.html
-[8] https://www.lykke.com/colored_coins_exchange_white_paper
-[9] https://github.com/0xProject/whitepaper/blob/master/0x_white_paper.pdf
+* [1] https://lightning.network/
+* [2] https://m.youtube.com/watch?v=8zVzw912wPo
+* [3] https://en.wikipedia.org/wiki/Banknote
+* [4] https://www.cnbc.com/2017/08/23/germanys-central-bank-just-shifted-50000-gold-bars-held-overseas-due-to-cold-war-fears.html
+* [5] http://unenumerated.blogspot.com/2005/12/bit-gold.html
+* [6] https://docs.google.com/document/d/1AnkP_cVZTCMLIzw4DvsW6M8Q2JC0lIzrTLuoWu2z1BE/edit
+* [7] https://vitalik.ca/general/2017/09/14/prehistory.html
+* [8] https://www.lykke.com/colored_coins_exchange_white_paper
+* [9] https://github.com/0xProject/whitepaper/blob/master/0x_white_paper.pdf
