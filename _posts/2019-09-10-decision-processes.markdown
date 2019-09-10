@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "Tokens and fiat money"
-date:   2019-08-29 10:00:00 +0700
+title:  "Blockchains and decision making processes"
+date:   2019-09-10 10:00:00 +0700
 categories: blockchain
 ---
-Blockchains and decision making processes
 
 There has been a recent uptick on a general blockchain governance debate, see [1] — [6]. I wanted to collect some links and add some thoughts from my own research in this area.
 One can consider goverance as a subset of problems related to collective decision making. An initially helpful assumption from mechanism design (see [9]) is that the protocol designer and the participants are different parties. A fully Peer-to-Peer system would assume that all participants fully engage in the entire process (peers are decision makers). However, with growth of blockchains this is no longer valid. The number of people working on code and/or making decisions (ND) is very small compared to the number of users (NU). As the ratio of ND/NU grows smaller (say from 1% to 0.0001%), the power of developers or generally decision makers grows. [6] provides an interesting overview over the history of the development dynamics in Bitcoin.
