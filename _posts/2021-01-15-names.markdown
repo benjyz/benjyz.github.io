@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Names"
+date:   2021-01-15 12:24:28 +0700
+categories: economics
+---
+The Domain Name system is a crucial part of the Internet. It was invented to organise names of servers.
+If we imagine an alternate universe with a different global naming system (GNS) what properties would be expect?
+The convention of dividing the top level space into .com, .org, etc is entirely arbitrary from the viewpoint of today after the invention of the Web.
+
+With new DNS we could also certify content. One example one can imagine is the following: we have a decentralised form of Google maps. It can be used for self driving  but not a single company owns it. So the data of the maps would be highly secure and shared
+That's an example that DNS can't cover. But with a new form of name resolution could be done. So you would issue a query and the Name resolver gives an answer based on location e.g.
